@@ -1,0 +1,707 @@
+Delivered-To: ecdysteron@gmail.com
+Received: by 2002:ab3:1615:0:0:0:0:0 with SMTP id b21csp7054320lta;
+        Wed, 7 Aug 2019 08:16:18 -0700 (PDT)
+X-Google-Smtp-Source: APXvYqyf/TW7CZX4Nw2V6Fd08355Dq6RhnO5duyX/oGWlM/qyzGibypY9RNSnFsFpYEVWMkcsVcl
+X-Received: by 2002:aca:d7d7:: with SMTP id o206mr347185oig.92.1565190977854;
+        Wed, 07 Aug 2019 08:16:17 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1565190977; cv=none;
+        d=google.com; s=arc-20160816;
+        b=OAIQhZZHSqJ2QMM8RRbH67luqB4HFTvH9jcTsX2RyYRE5PzfzXUB1HQccNcjTHuDvu
+         5v4QKOZXZikxwZUuWTtRhajBBLmH51uWS/wnH5p9fuaiPKVcgJxpFYO789P9kCeWlChK
+         X7v7/dD3wjIwif0zlmTfjVcA215HwLYm5iGfXBNA6NXD76a+25wKo4NbH/c7eP2Twc/3
+         872pX8qYLFWKyzpALVGPvTtI5qMcHzKYqyvMq28uf3/ZyVYIhQavpl8iNupEk7vkHw18
+         m54ueU/niIHkMQtCQcALQKgRvGEUiPUtTeIejMatAW1dlj2As7Aiy5k7XBn10OfMO8b1
+         n14Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:mime-version:subject:message-id:to:from:date
+         :dkim-signature;
+        bh=IO/2AjP929AC5fYM28vgI80ySVp5/muyDFqepyjE2C8=;
+        b=pFbJSCweNn19yH0fIEvJf6xvoH8004LPwo6CCCDctkb1UA7klC0Wr2mYweWvUmtx+9
+         LbzntFu1iQjW+Oqf+W6rTdhrmryyerhbu47wLiqxOx2BF40ygbAg/x+mRCEPLCPR+S80
+         scZutw1US18AXKQShDEhUTZ9nzyGPz/xjPQPgtINQ0M/PFgTTkLzmYAnAG9+RZJHO9UT
+         lJHTeye0NEoudlz8IxijDVJp5UwmZK+hkvQNTiGHJyUi6QTWnl7c5lwvzBetae97l41B
+         UARPeeh7UAzydGikJHuHNvDYVm8OaI93EQr5Va3JzhGe+kCAi36+99LkvAulLM7R+yNg
+         BqOA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@indeedemail.com header.s=default header.b=i7OilCAT;
+       spf=pass (google.com: domain of theresa6827_qz6@indeedemail.com designates 198.58.75.97 as permitted sender) smtp.mailfrom=theresa6827_qz6@indeedemail.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=indeedemail.com
+Return-Path: <theresa6827_qz6@indeedemail.com>
+Received: from mail97.indeedmail.com (mail97.indeedemail.com. [198.58.75.97])
+        by mx.google.com with ESMTPS id z62si47116402oia.66.2019.08.07.08.16.17
+        for <ecdysteron@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 07 Aug 2019 08:16:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of theresa6827_qz6@indeedemail.com designates 198.58.75.97 as permitted sender) client-ip=198.58.75.97;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@indeedemail.com header.s=default header.b=i7OilCAT;
+       spf=pass (google.com: domain of theresa6827_qz6@indeedemail.com designates 198.58.75.97 as permitted sender) smtp.mailfrom=theresa6827_qz6@indeedemail.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=indeedemail.com
+Received: from aus-mexec115.indeed.net (unknown [10.1.3.211]) by mail97.indeedmail.com (Postfix) with ESMTP id 463ZpT125gzllwBS for <ecdysteron@gmail.com>; Wed,
+  7 Aug 2019 10:16:17 -0500 (CDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=indeedemail.com; s=default; t=1565190977; bh=rl5lQAq38u8Yb2SsJ+QmRZXKqFmdegWUx+3sVPmz76k=; h=Date:From:To:Subject; b=i7OilCATTyRx+pJUj5zkWqgfkRKydNsLOP05Vn0s0qg+5+eXNMAXETn+wO2eirx8p
+	 Kve+dOzXpWgNIrU+ywMPfi5GD9QZL6ZrIEzhWWarT+f3XCH4XDnC7dhqTukKGgUa+8
+	 wUbA0Zik8u87dBjzG9ZlvsAxiejAIYSV40Ph2fww=
+Date: Wed, 7 Aug 2019 10:16:16 -0500 (CDT)
+From: Fresh Lines <theresa6827_qz6@indeedemail.com>
+To: Vadim Sidorov <ecdysteron@gmail.com>
+Message-ID: <1dhmadt3ro4qr800f22b469596d5@indeedemail.com>
+Subject: You're invited to interview with Fresh Lines for Javascript Developers
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_11896424_1132124485.1565190977140"
+Feedback-ID: DREMR:DREMR:Indeed
+X-Indeed-FBL: :2:eee80be5407f4961698b8fe99939967e6e96ad7f967066e3d9acb61a158bebb6074a5fa5e27f4432
+X-Indeed-Client-App: DREMR
+X-Indeed-Content-Type: DREMR
+X-Indeed-TK: 1dhmadt802ft8803
+
+------=_Part_11896424_1132124485.1565190977140
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+From Fresh Lines regarding your Javascript Developers application
+------------------------------------------
+
+<p>Hi<span>&nbsp;Vadim</span>,<br><br>Thank you for your interest in a part=
+-time position with Fresh Lines.&nbsp; As a first step in our hiring proces=
+s, will you please complete the practical below using Javascript and send m=
+y way when finished?<br><br>Let me know if you have any questions.<br><br>T=
+hanks,<br>Theresa<br><br></p><div><div>Theresa Smith<span>&nbsp;</span><br>=
+407-930-8265<span>&nbsp;</span><br>theresa@frshlns.com<span>&nbsp;</span><b=
+r><br><span>&nbsp;</span><br>PO Box 780995<span>&nbsp;</span><br>Orlando, F=
+L 32878<span>&nbsp;</span><br>www.frshlns.com<span>&nbsp;</span><span>&nbsp=
+;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbs=
+p;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nb=
+sp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&n=
+bsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&=
+nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>=
+&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span=
+>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><spa=
+n>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><sp=
+an>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><s=
+pan>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><=
+span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>=
+<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span=
+><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</spa=
+n><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</sp=
+an><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</s=
+pan><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</=
+span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;<=
+/span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;=
+</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp=
+;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbs=
+p;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nb=
+sp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&n=
+bsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&=
+nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>=
+&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span=
+>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><spa=
+n>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><sp=
+an>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><s=
+pan>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><=
+span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>=
+<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span=
+><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</spa=
+n><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</sp=
+an><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</s=
+pan><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</=
+span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;<=
+/span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;=
+</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp=
+;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbs=
+p;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nb=
+sp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&n=
+bsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&=
+nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>=
+&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span=
+>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><spa=
+n>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><sp=
+an>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><s=
+pan>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><=
+span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>=
+<span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span=
+><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</spa=
+n><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</sp=
+an><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</s=
+pan><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</=
+span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;<=
+/span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;=
+</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp=
+;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbs=
+p;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nb=
+sp;</span><span>&nbsp;</span><span></span><br><br><div>--------------------=
+---------------------------------------</div><div><br></div><div><p><span>C=
+oding Practical</span></p><span><br></span><p><span>Parsing an Email (Javas=
+cript)</span></p><span><br></span><p><span>What do I mean by parse an email=
+? Go to Gmail, open an incoming email, and do View Original. You should see=
+ a text file of a raw email. The goal here is to parse that and extract rel=
+evant fields.</span></p><span><br></span><p><span>This is actually a very d=
+ifficult thing and a proper implementation could take months. However, it's=
+ possible to do the basics, without handling all of the intricacies, in abo=
+ut an hour.</span></p><p><span><br></span></p><p><span>Your goals:</span></=
+p><ul><li><p><span>Take in an email and parse it into relevant fields. Figu=
+re out what those relevant fields are.</span></p></li><li><p><span>Create a=
+ good foundation. Try to write extensible/maintainable code.</span></p></li=
+><li><p><span>When you're done, list out next steps you'd take in your impl=
+ementation. Eg, 'I'd focus on handling different MIME types in the body', e=
+tc.</span></p></li><li><p><span>Don't use a library like TMail that does pa=
+rsing for you, but feel free to use any non-email specific libraries you wa=
+nt to.</span></p></li></ul></div></div></div>
+
+------------------------------------------
+
+Next Steps
+Respond by replying directly to this email
+No longer interested? Close your application for this job here: https://cts=
+.indeed.com/v0?tk=3D4e0be3d8-3e98-45c3-b756-c2ba114f7ba1&r=3Dhttps%3A%2F%2F=
+link.indeed.com%2Fwithdraw%2F17efeb4b9a426412fdd3%3Fco%3DUS%26hl%3Den_US%26=
+source%3Ddremr%26eventId%3DAAAAAeQNVaOk6yQkdKeAfYqlRoCVkHrsP67LHii2hSYYKJQs=
+2fFtf7qkFa02DPDFwJq507i7fZWkUltbDLyWu0L0d4OU7yWdZMNCBlVN&linktk=3D1dhmadt7j=
+o4bi801
+Opt in to SMS notifications for your applies here https://cts.indeed.com/v0=
+?tk=3D8e57b63c-8d8b-4805-accf-3631b6cf1d79&r=3Dhttps%3A%2F%2Flink.indeed.co=
+m%2Foptins%3Fco%3DUS%26source%3DDremrFooter&linktk=3D1dhmadt7ko4bi802
+
+------------------------------------------
+
+
+Suspect spam or fraud?
+Report this message to Indeed <https://m.indeedemail.com/report-email?info=
+=3DtAN4LTkKCeIp7hdKLkixakMoo5oGfW18O8YFPqsEg_h2EmUWtkgucKLBzOzxfkDaa7mZSGG8=
+_9Z8dVj8m6gWmVYTZtvsjXKfTUyUAVk-lYnmCcRMxuoz4SODj0PGAcnmv0JIqkiUO2Bqnp8lrMY=
+pYJq0S79RD5mCn98dnO-o8Wor5KiIMf2ct6BA0T4EkU-RjePg0h7s>
+
+By replying or using an indeedemail.com email address, you agree that this =
+email will be processed and analyzed according to the Indeed Cookie Policy =
+<https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#cookies>, Privacy Policy =
+<https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#privacy>, and Terms of Se=
+rvice <https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#tos>.
+------=_Part_11896424_1132124485.1565190977140
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+ <head>=20
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=
+=20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">=20
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+  <meta name=3D"format-detection" content=3D"address=3Dno">=20
+  <meta name=3D"format-detection" content=3D"telephone=3Dno">=20
+  <style type=3D"text/css">body, table, td, a { -webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; }table, td { mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; }img { -ms-interpolation-mode: bicubic; }img { border: 0; =
+height: auto; line-height: 100%; outline: none; text-decoration: none; }tab=
+le { border-collapse: collapse !important; }body { height: 100% !important;=
+ margin: 0 !important; padding: 0 !important; width: 100% !important; }.dre=
+mr-report-suspicious {font-family:Helvetica Neue,Helvetica,Arial,Liberation=
+ Sans,Roboto,Noto,sans-serif !important; border-top:0 !important; color:#5D=
+5D5D !important; font-size:11px !important; line-height:15px !important;pad=
+ding-left:8px; width: 90%;}.dremr-disclaimer {font-family:Helvetica Neue,He=
+lvetica,Arial,Liberation Sans,Roboto,Noto,sans-serif !important;padding-lef=
+t:8px; width: 90%;}.dremr-disclaimer div {}.iris-mobile-only {display: none=
+;}.iris-desktop-only {display: block;}@media only screen and (max-width:550=
+px) {u ~ div .full-wrap {min-width: 100vw;}.iris-mobile-only {display: bloc=
+k;}.iris-desktop-only {display: none;}.dremr-report-suspicious {padding: 0p=
+x 8px;}.dremr-disclaimer {padding: 0px 8px;}}</style>=20
+  <!-- FIXES FOR OUTLOOK -->=20
+  <!--[if mso]><style type=3D"text/css">.dremr-report-suspicious, .dremr-di=
+sclaimer {font-family: Arial, sans-serif; border-top:0 !important;}</style>=
+<![endif]-->=20
+  <!-- FIX FOR IMAGES IN OUTLOOK 2013 DPI -->=20
+  <!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsP=
+erInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->=20
+  <!--[if mso]><style type=3D"text/css">.dremr-report-suspicious, .dremr-di=
+sclaimer {font-family: Arial, sans-serif; border-top:0 !important;}</style>=
+<![endif]-->=20
+ </head>=20
+ <body>=20
+  <div id=3D"indeedemailpixel">=20
+   <img src=3D"https://m.indeedemail.com/emailpixel.gif?info=3DobVr3Df6nNYs=
+kGR9h2yxoKAWlfQMroxc4hk-h4BsTWeLKSJ1InzpPbz7sQlZfzm1UF_BfX5dRuXoJCYd7AtgDd6=
+fNafFWkxfdcylJYOBMK5sJ1aSdbqKv2HDXX5v3-Sb6ISQeSAUBBIIanp5kIw8TR5tdj4cztlQQR=
+fhD4whJuW9CvfuKyQnjjqmUQ">=20
+  </div>=20
+  <div style=3D"display: none; max-height: 0px; overflow: hidden;" alt=3D"i=
+ris-jobseeker-content">
+    From Fresh Lines regarding your Javascript Developers application=20
+  </div>=20
+  <div style=3D"display: none; max-height: 0px; overflow: hidden;" alt=3D"i=
+ris-jobseeker-content">
+    &nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=20
+  </div>=20
+  <!-- END PREHEADER -->=20
+  <div class=3D"full-wrap" style=3D"padding-bottom:12px;">=20
+   <table style=3D"padding-bottom:10p;width:100%;" alt=3D"iris-jobseeker-co=
+ntent"></table>=20
+   <table style=3D"padding-bottom:10p;width:100%;">=20
+    <tbody>=20
+     <tr>=20
+      <td>=20
+       <table style=3D"width:100%">=20
+        <tbody>=20
+         <tr>=20
+          <td align=3D"left" style=3D"font-family: Helvetica Neue,Helvetica=
+,Arial,Liberation Sans,Roboto,Noto,sans-serif;font-size:14px;padding-left:8=
+px;">=20
+           <div>=20
+            <p>Hi<span>&nbsp;Vadim</span>,<br><br>Thank you for your intere=
+st in a part-time position with Fresh Lines.&nbsp; As a first step in our h=
+iring process, will you please complete the practical below using Javascrip=
+t and send my way when finished?<br><br>Let me know if you have any questio=
+ns.<br><br>Thanks,<br>Theresa<br><br></p>=20
+            <div>=20
+             <div>
+               Theresa Smith=20
+              <span>&nbsp;</span>=20
+              <br>407-930-8265=20
+              <span>&nbsp;</span>=20
+              <br>theresa@frshlns.com=20
+              <span>&nbsp;</span>=20
+              <br>=20
+              <br>=20
+              <span>&nbsp;</span>=20
+              <br>PO Box 780995=20
+              <span>&nbsp;</span>=20
+              <br>Orlando, FL 32878=20
+              <span>&nbsp;</span>=20
+              <br>www.frshlns.com=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span>&nbsp;</span>=20
+              <span></span>=20
+              <br>=20
+              <br>=20
+              <div>
+                -----------------------------------------------------------=
+=20
+              </div>=20
+              <div>=20
+               <br>=20
+              </div>=20
+              <div>=20
+               <p><span>Coding Practical</span></p>=20
+               <span><br></span>=20
+               <p><span>Parsing an Email (Javascript)</span></p>=20
+               <span><br></span>=20
+               <p><span>What do I mean by parse an email? Go to Gmail, open=
+ an incoming email, and do View Original. You should see a text file of a r=
+aw email. The goal here is to parse that and extract relevant fields.</span=
+></p>=20
+               <span><br></span>=20
+               <p><span>This is actually a very difficult thing and a prope=
+r implementation could take months. However, it's possible to do the basics=
+, without handling all of the intricacies, in about an hour.</span></p>=20
+               <p><span><br></span></p>=20
+               <p><span>Your goals:</span></p>=20
+               <ul>=20
+                <li><p><span>Take in an email and parse it into relevant fi=
+elds. Figure out what those relevant fields are.</span></p></li>=20
+                <li><p><span>Create a good foundation. Try to write extensi=
+ble/maintainable code.</span></p></li>=20
+                <li><p><span>When you're done, list out next steps you'd ta=
+ke in your implementation. Eg, 'I'd focus on handling different MIME types =
+in the body', etc.</span></p></li>=20
+                <li><p><span>Don't use a library like TMail that does parsi=
+ng for you, but feel free to use any non-email specific libraries you want =
+to.</span></p></li>=20
+               </ul>=20
+              </div>=20
+             </div>=20
+            </div>=20
+           </div> <img src=3D"https://ads.indeed.com/images/email/spacer.gi=
+f?refUid=3D1dhmadt4t30b1000"> </td>=20
+         </tr>=20
+        </tbody>=20
+       </table></td>=20
+     </tr>=20
+    </tbody>=20
+   </table>=20
+   <table style=3D"padding-bottom:10p;width:100%;" alt=3D"iris-jobseeker-co=
+ntent">=20
+    <tbody>=20
+     <tr>=20
+      <td style=3D"padding: 8px">=20
+       <table style=3D"border-bottom: 2px solid #ECECEC;margin:0px 0px 10px=
+ 0px;width:100%;">=20
+        <tbody>=20
+         <tr>=20
+          <td>&nbsp;</td>=20
+         </tr>=20
+        </tbody>=20
+       </table></td>=20
+     </tr>=20
+     <tr>=20
+      <td>=20
+       <table style=3D"width:100%">=20
+        <tbody>=20
+         <tr>=20
+          <td align=3D"left" style=3D"font-family: Helvetica Neue,Helvetica=
+,Arial,Liberation Sans,Roboto,Noto,sans-serif;font-size:14px;font-weight:bo=
+ld;padding-left:8px;padding-bottom:10px;">Next Steps </td>=20
+         </tr>=20
+         <tr>=20
+          <td align=3D"left" style=3D"font-family: Helvetica Neue,Helvetica=
+,Arial,Liberation Sans,Roboto,Noto,sans-serif;font-size:14px;padding-left:8=
+px;padding-bottom:10px;">Respond by replying directly to this email</td>=20
+         </tr>=20
+         <tr>=20
+          <td align=3D"left" style=3D"font-family: Helvetica Neue,Helvetica=
+,Arial,Liberation Sans,Roboto,Noto,sans-serif;font-size:14px;padding-left:8=
+px;padding-bottom:10px;" class=3D"iris-mobile-only"><a href=3D"https://cts.=
+indeed.com/v0?tk=3D964ac3eb-2fee-4d31-a78a-6461decc7393&amp;r=3Dtel%3A%2B1-=
+407-930-8265&amp;linktk=3D1dhmadt7jo4bi804" style=3D"color:#0044E3;" target=
+=3D"_blank">Call Fresh Lines directly </a></td>=20
+         </tr>=20
+         <tr>=20
+          <td align=3D"left" style=3D"font-family: Helvetica Neue,Helvetica=
+,Arial,Liberation Sans,Roboto,Noto,sans-serif;font-size:14px;padding-left:8=
+px;">No longer interested? <a href=3D"https://cts.indeed.com/v0?tk=3D4e0be3=
+d8-3e98-45c3-b756-c2ba114f7ba1&amp;r=3Dhttps%3A%2F%2Flink.indeed.com%2Fwith=
+draw%2F17efeb4b9a426412fdd3%3Fco%3DUS%26hl%3Den_US%26source%3Ddremr%26event=
+Id%3DAAAAAeQNVaOk6yQkdKeAfYqlRoCVkHrsP67LHii2hSYYKJQs2fFtf7qkFa02DPDFwJq507=
+i7fZWkUltbDLyWu0L0d4OU7yWdZMNCBlVN&amp;linktk=3D1dhmadt7jo4bi801" style=3D"=
+color:#0044E3;" target=3D"_blank">Close your application for this job.</a> =
+</td>=20
+         </tr>=20
+         <tr>=20
+          <td align=3D"left" style=3D"font-family: Helvetica Neue,Helvetica=
+,Arial,Liberation Sans,Roboto,Noto,sans-serif;font-size:14px;padding-left:8=
+px;padding-bottom:10px;"><a href=3D"https://cts.indeed.com/v0?tk=3D8e57b63c=
+-8d8b-4805-accf-3631b6cf1d79&amp;r=3Dhttps%3A%2F%2Flink.indeed.com%2Foptins=
+%3Fco%3DUS%26source%3DDremrFooter&amp;linktk=3D1dhmadt7ko4bi802" style=3D"c=
+olor: #0044E3;" target=3D"_blank">Opt in to SMS notifications for your appl=
+ies here</a></td>=20
+         </tr>=20
+        </tbody>=20
+       </table></td>=20
+     </tr>=20
+     <tr>=20
+      <td style=3D"padding: 8px">=20
+       <table style=3D"border-bottom: 2px solid #ECECEC;margin:0px 0px 10px=
+ 0px;width:100%;">=20
+        <tbody>=20
+         <tr>=20
+          <td>&nbsp;</td>=20
+         </tr>=20
+        </tbody>=20
+       </table></td>=20
+     </tr>=20
+     <tr>=20
+      <td>=20
+       <table style=3D"width:100%">=20
+        <tbody>=20
+         <tr>=20
+          <td align=3D"left" style=3D"font-family: Helvetica Neue,Helvetica=
+,Arial,Liberation Sans,Roboto,Noto,sans-serif;font-size:14px;padding-bottom=
+:10px;"><a href=3D"https://cts.indeed.com/v0?tk=3D93c099f2-4b82-4671-ae74-b=
+84733c996d6&amp;r=3Dhttp%3A%2F%2Fwww.indeed.com%2F&amp;linktk=3D1dhmadt7jo4=
+bi800" target=3D"_blank"><img class=3D"logo" src=3D"http://tophat-cms-prod.=
+s3.amazonaws.com/wp-content/uploads/2016/02/18221139/logo9.png" alt=3D"inde=
+ed" width=3D"80" style=3D"width:80px;color:#FFFFFF;font-size:18px;font-weig=
+ht:400;font-family:'Arial Rounded MT Bold', 'Helvetica Neue', Helvetica, Ro=
+boto, Arial ,sans-serif;" border=3D"0"></a></td>=20
+         </tr>=20
+         <tr>=20
+          <td align=3D"left" style=3D"font-family: Helvetica Neue,Helvetica=
+,Arial,Liberation Sans,Roboto,Noto,sans-serif;font-size:14px;padding-left:8=
+px;">From Fresh Lines regarding your <a style=3D"color: #000000; font-weigh=
+t:normal" href=3D"https://cts.indeed.com/v0?tk=3D8e67cfc4-0572-4700-8a85-ea=
+5c0b1df2b3&amp;r=3Dhttp%3A%2F%2Fwww.indeed.com%2Fviewjob%3Fjk%3Dbf8ae56ffc2=
+4ae2e%26from%3Ddremrfooter&amp;linktk=3D1dhmadt7jo4bi802" target=3D"_blank"=
+>Javascript Developers</a> application</td>=20
+         </tr>=20
+        </tbody>=20
+       </table></td>=20
+     </tr>=20
+    </tbody>=20
+   </table>=20
+  </div>=20
+  <div id=3D"report-suspicious--3503547938964797450" style=3D"border-top:so=
+lid 1px #d8d8d8; color:#999; padding:7px 0; margin-top:3px; font-size:12px;=
+" class=3D"dremr-report-suspicious">=20
+   <b>Suspect spam or fraud?</b>=20
+   <a href=3D"https://m.indeedemail.com/report-email?info=3DtAN4LTkKCeIp7hd=
+KLkixakMoo5oGfW18O8YFPqsEg_h2EmUWtkgucKLBzOzxfkDaa7mZSGG8_9Z8dVj8m6gWmVYTZt=
+vsjXKfTUyUAVk-lYnmCcRMxuoz4SODj0PGAcnmv0JIqkiUO2Bqnp8lrMYpYJq0S79RD5mCn98dn=
+O-o8Wor5KiIMf2ct6BA0T4EkU-RjePg0h7s" style=3D"color:#999">Report this messa=
+ge to Indeed</a>=20
+   <span>=E2=80=83 =E2=80=83 =E2=80=83</span>=20
+   <a href=3D"https://m.indeedemail.com/report-email-hidden?info=3DtAN4LTkK=
+CeIp7hdKLkixakMoo5oGfW18O8YFPqsEg_h2EmUWtkgucKLBzOzxfkDaa7mZSGG8_9Z8dVj8m6g=
+WmVYTZtvsjXKfTUyUAVk-lYnmCcRMxuoz4SODj0PGAcnmv0JIqkiUO2Bqnp8lrMYpYJq0S79RD5=
+mCn98dnO-o8Wor5KiIMf2ct6BA0T4EkU-RjePg0h7s"></a>=20
+  </div> =20
+  <div id=3D"legal-disclaimer" style=3D"color:gray;margin-top:10px;font-siz=
+e:12px" class=3D"dremr-disclaimer">
+   <div>
+    By replying or using an indeedemail.com email address, you agree that t=
+his email will be processed and analyzed according to the Indeed=20
+    <a href=3D"https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#cookies" st=
+yle=3D"color:#999">Cookie Policy</a>,=20
+    <a href=3D"https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#privacy" st=
+yle=3D"color:#999">Privacy Policy</a>, and=20
+    <a href=3D"https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#tos" style=
+=3D"color:#999">Terms of Service</a>.
+   </div>
+  </div>
+ </body>
+</html>
+------=_Part_11896424_1132124485.1565190977140--
